@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0.1vh;
+}
+
+hr {
+    border-color: #a01444;
+    border-width: 0.01vw;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+a {
+    color: rgb(189, 0, 0);
+}
+
+a:hover {
+    color: rgb(182, 83, 83);
+}
+
+#tlu_logo_img {
+    width: 20vw;
+    min-width: 20vh;
+    height: auto;
+}
+
+
+.logout-button {
+    padding: 1%;
+    font-size: 15px;
+    background-color:#a01444;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    width: 96px;
+    height: 38px;
+    top: 1vh;
+
+  }
+  
+.logout-button:hover, #help_btn:hover {
+    background-color: #ad2d5a;
+  }
+  
+.logout-button:active {
+    background-color: #8b0c39;
+  }
+
+#help_logout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: -2%;
+    margin-bottom: 1%;
+
+}
+
+#kasutusjuhend, #logout {
+    margin-right: 10px;
+}
+
+#help_btn {
+    padding: 0px;
+    width: 50px;
+    border-radius: 0;
+    border: none;
+    padding: 1%;
+    font-size: 16px;
+    background-color:#a01444;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    top: 1vh;
+}
+
+#home_btn_img {
+    width: 5vw;
+    min-width: 8vh;
+    height: auto;
+}
+
+#home_btn {
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+}
+
+#home{
+    padding-left:2%;
+}
+
+/* NOTIFICATIONS */
+
+#notifications {
+    height: min-content;
+    min-height: 7vh;
+    
+}
+
+#notif_btn_img {
+    width: 5vw;
+    min-width: 6vh;
+    height: auto;
+}
+
+#notif_btn {
+    border-radius: 10%;
+    border: 0.01px solid white;
+    padding: 0px;
+    right: 2%;
+    position: absolute;
+}
+
+.notif_bubble {
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    min-width: 2vh;
+    min-height: 2vh;
+    background: rgb(207, 1, 1);
+    color: white;
+    font-size: calc(10px + 0.6vw);
+    font-weight: bold;
+}
+
+#notifs {
+    width: 80%;
+    height: min-content;
+    float: right;
+    border: 1px solid #a01444;
+    padding: 0.2vw;
+    padding-bottom: 1vh;
+    border-radius: 10px;
+    position: absolute;
+    left: 2%;
+    
+}
+
+ul {list-style-type: none;}
+
+#loetudContainer {
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#vaata_teateid {
+    float: right;
+    clear: both;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#koik_loetud {
+    float: right;
+} 
+
+#form_read {
+    float: right;
+    padding-right: 10px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    right: 20px;
+    padding: 5px 20px;
+    font-size: 1em;
+    border: 1px solid #a01444;
+    box-shadow: 0 0 0 0.4px #a01444;
+}
+
+#toggle_button {
+    border: 1px solid #a01444;
+    box-shadow: 0 0 0 0.4px #a01444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TABLES */
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+  
+#table1, #table3 {
+    grid-column: span 1; /* Tabelid hõlmavad ühe veeru */
+}
+
+#table2, #table4 {
+    grid-column: span 1; /* Tabelid hõlmavad ühe veeru */
+}
+
+#table1, #table2, #table3, #table4{
+    overflow-x:auto;
+    padding: 1%;
+    border: 2px solid #a01444;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+}
+
+table {
+    border: 2px solid #a01444;
+    border-collapse: collapse; 
+    table-layout: auto;
+    width: 100%;
+
+}
+
+table caption {
+    font-size: calc(1.5vh + 0.8vw);
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    border: 1px solid #9c6377;
+    padding: .35em;
+    
+}
+  
+table th,
+table td {
+    border: 1px solid #9c6377;
+    padding: .625em;
+    text-align: center;
+}
+  
+table th {
+    font-size: 14px;
+}
+
+table td {
+    font-size: 12px;
+}
+
+.text_data {
+    text-align: start;
+    padding-left: 2%;
+}
+
+.text_data_exception {
+    padding-left: 1%;
+    min-width: max-content;
+}
+
+.number_data {
+    text-align: end;
+    padding-right: 2%;
+}
+
+.date {
+    white-space: nowrap;
+    padding-right: 4%;
+    width: 110px;
+}
+
+.number_data_exception {
+    padding-right: 4%;
+}
+
+.box_width {
+    width: 120px;
+}
+
+.box_width_2 {
+    width: 180px;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Üks veerg, kui ekraan on kitsam */
+      padding-top: 40px;
+    }
+  }
