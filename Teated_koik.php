@@ -9,6 +9,7 @@ if ($conn->connect_error) {
 
 // Check if the button toggle is pressed
 if (isset($_GET['toggle']) && $_GET['toggle'] == "true") {
+    // Perform the database query to retrieve notifications
     $query = "SELECT ID, Liik, Sisu, Loetud FROM Teated WHERE Loetud = 0 ORDER BY Lisamise_aeg DESC";
     $result = mysqli_query($conn, $query);
 
@@ -18,11 +19,12 @@ if (isset($_GET['toggle']) && $_GET['toggle'] == "true") {
         $notifications = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
         // Loop through the notifications array
-        foreach ($notifications as $notification) {
-            $teate_id = $notification['ID'];
-            $liik = $notification['Liik'];
-            $sisu = $notification['Sisu'];
-            $loetud = $notification['Loetud'];
+        //foreach ($notifications as $notification) {
+        for($i=1; $i < count($notifications); $i++) {
+            $teate_id = $notifications[$i]['ID'];
+            $liik = $notifications[$i]['Liik'];
+            $sisu = $notifications[$i]['Sisu'];
+            $loetud = $notifications[$i]['Loetud'];
 
             // Display the values
             echo "<br>" . $liik . " | " . $sisu . "<br>";
