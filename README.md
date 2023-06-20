@@ -2,7 +2,8 @@
 
 Tallinna Ülikooli täiendusõppe infosüsteemi töölaud
 
-![toolaud_screen](https://github.com/merilynl/TOIS/assets/114921922/a96b3a00-23c0-49d4-85fc-3c787e03b14b)
+![Screenshot 2023-06-20 at 15-03-36 Töölaud](https://github.com/merilynl/TOIS/assets/114921922/caea8db9-cb0b-4d76-b8b8-8b920c883431)
+
 
 Täienduskoolituse juhi Kersti Maidra mure on, et tema tööülesannete täitmiseks on vaja läbi otsingu andmeid otsida, mis on meeletu ajakulu. Tema soov on kõige sagedamini kasutatavad andmed tuua kokku töölauale, et oleks kõigest vajalikust ülevaade. Selline lahendus kiirendab ja lihtsustab tohutult tööülesannete täitmist, lisaks toob info silme ette ning vähendab vajalike ülesannete ununemise võimalust.
 
