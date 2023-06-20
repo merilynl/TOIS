@@ -24,5 +24,8 @@ phpMyAdmin
 
 Autorid: Katriin Liselle Eenmaa, Johanna Erikson, Merilyn Hunt, Anu Sarapuu (Klient: Kersti Maidra)
 
-Projekti failid tuleb esiteks Githubi repositooriumist alla laadida ja seejärel tuleb koodi failid koos pildikaustadega üles laadida greeny serverisse või samaväärsele platvormile. MariaDB-l põhinevasse andmebaasihalduse keskkonda tuleb luua andmebaas vastavate tabelitega sql koodi alusel. Kui andmebaas loodud, saab töölauale ligi url aadressilt, mis vastab kohale, kuhu kood üles laeti.
+Projekti failid tuleb esiteks Githubi repositooriumist alla laadida ja seejärel tuleb koodi failid koos pildikaustadega üles laadida greeny serverisse või samaväärsele platvormile. MariaDB-l põhinevasse andmebaasihalduse keskkonda tuleb luua andmebaas vastavate tabelitega repositooriumis oleva sql faili (TÕIS sql) koodi alusel. Kui andmebaas loodud, saab töölauale ligi url aadressilt, mis vastab kohale, kuhu kood üles laeti.
 
+MIT License
+
+Copyright (c) 2023 Merilyn Hunt, Anu Sarapuu, Katriin Liselle Eenmaa, Johanna Erikson
