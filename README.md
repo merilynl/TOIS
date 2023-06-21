@@ -20,8 +20,9 @@ JavaScript 1.5
 
 Andmebaas:
 
-phpMyAdmin
 10.5.16-MariaDB - MariaDB Server
+PhpMyAdmin kasutajaliides
+Andmebaasi nimi: if22_TOIS_toolaud
 
 Autorid: Katriin Liselle Eenmaa, Johanna Erikson, Merilyn Hunt, Anu Sarapuu (Klient: Kersti Maidra)
 
