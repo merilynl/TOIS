@@ -34,7 +34,7 @@ window.onload = function() {
       console.log(notifsState);
 
       if (notifsState == "visible") { 
-        console.log("test1");
+        //console.log("test1");
         notifs.hidden = false;
         showTeated();
         toggle.textContent = "Vaata kõiki teateid";
@@ -44,9 +44,10 @@ window.onload = function() {
           hideTeated();
           notifs.hidden = false;
           toggle.textContent = "Peida";
-        } else {
+        /* } else {
           notifs.hidden = true;
-          console.log("notifstate visible, checkbox unchecked");
+          hideTeated();
+          console.log("notifstate visible, checkbox unchecked"); */
         }
         if (loetud2CheckboxState === "checked") {
           console.log("notifstate visible, checkbox type 2 checked");
@@ -86,10 +87,12 @@ function getParameterByName(name) {
 $(document).ready(function () {
   $("#loetud").change(function () {
     if ($(this).is(":checked")) {
+      //console.log("test01");
       localStorage.setItem("loetudCheckboxState", "checked");
       this.form.submit();
     } else {
       localStorage.setItem("loetudCheckboxState", "unchecked");
+      //console.log("test02");
       $(this).prop("checked", false);
       setTimeout(function () {
         this.form.submit();
@@ -102,10 +105,12 @@ $(document).ready(function () {
     $(".loetud-checkbox").change(function () {
       if ($(this).is(":checked")) {
         localStorage.setItem("loetud2CheckboxState", "checked");
+        //console.log("test03");
         this.form.submit();
       } else {
         localStorage.setItem("loetud2CheckboxState", "unchecked");
         $(this).prop("checked", false);
+        //console.log("test04");
         setTimeout(function () {
           this.form.submit();
         }, 100);
