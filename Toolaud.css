@@ -154,7 +154,6 @@ a:hover {
     float: right;
     border: 1px solid #a01444;
     padding: 0.2vw;
-    padding-bottom: 1vh;
     border-radius: 10px;
     position: absolute;
     left: 2%;
@@ -213,7 +212,7 @@ ul {list-style-type: none;}
     grid-gap: 20px;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 60px;
+    padding-top: 45px;
     margin-top: 20px;
 }
   
